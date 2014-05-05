@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6DC0FB619178E6200E9BD3D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DC0FB519178E6200E9BD3D /* Cocoa.framework */; };
+		C6DC0FC019178E6200E9BD3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6DC0FBE19178E6200E9BD3D /* InfoPlist.strings */; };
+		C6DC0FC219178E6300E9BD3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DC0FC119178E6300E9BD3D /* main.m */; };
+		C6DC0FC619178E6300E9BD3D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C6DC0FC419178E6300E9BD3D /* Credits.rtf */; };
+		C6DC0FC919178E6300E9BD3D /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DC0FC819178E6300E9BD3D /* MTAppDelegate.m */; };
+		C6DC0FCC19178E6300E9BD3D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6DC0FCA19178E6300E9BD3D /* MainMenu.xib */; };
+		C6DC0FCE19178E6300E9BD3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6DC0FCD19178E6300E9BD3D /* Images.xcassets */; };
+		C6DC0FD519178E6300E9BD3D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DC0FD419178E6300E9BD3D /* XCTest.framework */; };
+		C6DC0FD619178E6300E9BD3D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DC0FB519178E6200E9BD3D /* Cocoa.framework */; };
+		C6DC0FDE19178E6300E9BD3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6DC0FDC19178E6300E9BD3D /* InfoPlist.strings */; };
+		C6DC0FE019178E6300E9BD3D /* MTControlWithCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DC0FDF19178E6300E9BD3D /* MTControlWithCellTests.m */; };
+		C6DC0FEB19178E8800E9BD3D /* MTGenericControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DC0FEA19178E8800E9BD3D /* MTGenericControl.m */; };
+		C6DC0FEF19178EAC00E9BD3D /* MTActionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DC0FED19178EAC00E9BD3D /* MTActionCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6DC0FD719178E6300E9BD3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DC0FAA19178E6200E9BD3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6DC0FB119178E6200E9BD3D;
+			remoteInfo = MTControlWithCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6DC0FB219178E6200E9BD3D /* MTControlWithCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTControlWithCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6DC0FB519178E6200E9BD3D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C6DC0FB819178E6200E9BD3D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C6DC0FB919178E6200E9BD3D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C6DC0FBA19178E6200E9BD3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C6DC0FBD19178E6200E9BD3D /* MTControlWithCell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTControlWithCell-Info.plist"; sourceTree = "<group>"; };
+		C6DC0FBF19178E6200E9BD3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6DC0FC119178E6300E9BD3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6DC0FC319178E6300E9BD3D /* MTControlWithCell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MTControlWithCell-Prefix.pch"; sourceTree = "<group>"; };
+		C6DC0FC519178E6300E9BD3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C6DC0FC719178E6300E9BD3D /* MTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTAppDelegate.h; sourceTree = "<group>"; };
+		C6DC0FC819178E6300E9BD3D /* MTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAppDelegate.m; sourceTree = "<group>"; };
+		C6DC0FCB19178E6300E9BD3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C6DC0FCD19178E6300E9BD3D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C6DC0FD319178E6300E9BD3D /* MTControlWithCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTControlWithCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6DC0FD419178E6300E9BD3D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C6DC0FDB19178E6300E9BD3D /* MTControlWithCellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTControlWithCellTests-Info.plist"; sourceTree = "<group>"; };
+		C6DC0FDD19178E6300E9BD3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6DC0FDF19178E6300E9BD3D /* MTControlWithCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTControlWithCellTests.m; sourceTree = "<group>"; };
+		C6DC0FE919178E8800E9BD3D /* MTGenericControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTGenericControl.h; sourceTree = "<group>"; };
+		C6DC0FEA19178E8800E9BD3D /* MTGenericControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTGenericControl.m; sourceTree = "<group>"; };
+		C6DC0FEC19178EAC00E9BD3D /* MTActionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTActionCell.h; sourceTree = "<group>"; };
+		C6DC0FED19178EAC00E9BD3D /* MTActionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTActionCell.m; sourceTree = "<group>"; };
+		C6DC0FEE19178EAC00E9BD3D /* MTCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCommon.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6DC0FAF19178E6200E9BD3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DC0FB619178E6200E9BD3D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6DC0FD019178E6300E9BD3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DC0FD619178E6300E9BD3D /* Cocoa.framework in Frameworks */,
+				C6DC0FD519178E6300E9BD3D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6DC0FA919178E6200E9BD3D = {
+			isa = PBXGroup;
+			children = (
+				C6DC0FBB19178E6200E9BD3D /* MTControlWithCell */,
+				C6DC0FD919178E6300E9BD3D /* MTControlWithCellTests */,
+				C6DC0FB419178E6200E9BD3D /* Frameworks */,
+				C6DC0FB319178E6200E9BD3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6DC0FB319178E6200E9BD3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6DC0FB219178E6200E9BD3D /* MTControlWithCell.app */,
+				C6DC0FD319178E6300E9BD3D /* MTControlWithCellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6DC0FB419178E6200E9BD3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6DC0FB519178E6200E9BD3D /* Cocoa.framework */,
+				C6DC0FD419178E6300E9BD3D /* XCTest.framework */,
+				C6DC0FB719178E6200E9BD3D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6DC0FB719178E6200E9BD3D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6DC0FB819178E6200E9BD3D /* AppKit.framework */,
+				C6DC0FB919178E6200E9BD3D /* CoreData.framework */,
+				C6DC0FBA19178E6200E9BD3D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C6DC0FBB19178E6200E9BD3D /* MTControlWithCell */ = {
+			isa = PBXGroup;
+			children = (
+				C6DC0FEC19178EAC00E9BD3D /* MTActionCell.h */,
+				C6DC0FED19178EAC00E9BD3D /* MTActionCell.m */,
+				C6DC0FEE19178EAC00E9BD3D /* MTCommon.h */,
+				C6DC0FE919178E8800E9BD3D /* MTGenericControl.h */,
+				C6DC0FEA19178E8800E9BD3D /* MTGenericControl.m */,
+				C6DC0FC719178E6300E9BD3D /* MTAppDelegate.h */,
+				C6DC0FC819178E6300E9BD3D /* MTAppDelegate.m */,
+				C6DC0FCA19178E6300E9BD3D /* MainMenu.xib */,
+				C6DC0FCD19178E6300E9BD3D /* Images.xcassets */,
+				C6DC0FBC19178E6200E9BD3D /* Supporting Files */,
+			);
+			path = MTControlWithCell;
+			sourceTree = "<group>";
+		};
+		C6DC0FBC19178E6200E9BD3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6DC0FBD19178E6200E9BD3D /* MTControlWithCell-Info.plist */,
+				C6DC0FBE19178E6200E9BD3D /* InfoPlist.strings */,
+				C6DC0FC119178E6300E9BD3D /* main.m */,
+				C6DC0FC319178E6300E9BD3D /* MTControlWithCell-Prefix.pch */,
+				C6DC0FC419178E6300E9BD3D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6DC0FD919178E6300E9BD3D /* MTControlWithCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6DC0FDF19178E6300E9BD3D /* MTControlWithCellTests.m */,
+				C6DC0FDA19178E6300E9BD3D /* Supporting Files */,
+			);
+			path = MTControlWithCellTests;
+			sourceTree = "<group>";
+		};
+		C6DC0FDA19178E6300E9BD3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6DC0FDB19178E6300E9BD3D /* MTControlWithCellTests-Info.plist */,
+				C6DC0FDC19178E6300E9BD3D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6DC0FB119178E6200E9BD3D /* MTControlWithCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6DC0FE319178E6300E9BD3D /* Build configuration list for PBXNativeTarget "MTControlWithCell" */;
+			buildPhases = (
+				C6DC0FAE19178E6200E9BD3D /* Sources */,
+				C6DC0FAF19178E6200E9BD3D /* Frameworks */,
+				C6DC0FB019178E6200E9BD3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTControlWithCell;
+			productName = MTControlWithCell;
+			productReference = C6DC0FB219178E6200E9BD3D /* MTControlWithCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6DC0FD219178E6300E9BD3D /* MTControlWithCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6DC0FE619178E6300E9BD3D /* Build configuration list for PBXNativeTarget "MTControlWithCellTests" */;
+			buildPhases = (
+				C6DC0FCF19178E6300E9BD3D /* Sources */,
+				C6DC0FD019178E6300E9BD3D /* Frameworks */,
+				C6DC0FD119178E6300E9BD3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6DC0FD819178E6300E9BD3D /* PBXTargetDependency */,
+			);
+			name = MTControlWithCellTests;
+			productName = MTControlWithCellTests;
+			productReference = C6DC0FD319178E6300E9BD3D /* MTControlWithCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6DC0FAA19178E6200E9BD3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "misha.tavkhelidze@gmail.com";
+				TargetAttributes = {
+					C6DC0FD219178E6300E9BD3D = {
+						TestTargetID = C6DC0FB119178E6200E9BD3D;
+					};
+				};
+			};
+			buildConfigurationList = C6DC0FAD19178E6200E9BD3D /* Build configuration list for PBXProject "MTControlWithCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6DC0FA919178E6200E9BD3D;
+			productRefGroup = C6DC0FB319178E6200E9BD3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6DC0FB119178E6200E9BD3D /* MTControlWithCell */,
+				C6DC0FD219178E6300E9BD3D /* MTControlWithCellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6DC0FB019178E6200E9BD3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DC0FC019178E6200E9BD3D /* InfoPlist.strings in Resources */,
+				C6DC0FCE19178E6300E9BD3D /* Images.xcassets in Resources */,
+				C6DC0FC619178E6300E9BD3D /* Credits.rtf in Resources */,
+				C6DC0FCC19178E6300E9BD3D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6DC0FD119178E6300E9BD3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DC0FDE19178E6300E9BD3D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6DC0FAE19178E6200E9BD3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DC0FEF19178EAC00E9BD3D /* MTActionCell.m in Sources */,
+				C6DC0FC219178E6300E9BD3D /* main.m in Sources */,
+				C6DC0FEB19178E8800E9BD3D /* MTGenericControl.m in Sources */,
+				C6DC0FC919178E6300E9BD3D /* MTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6DC0FCF19178E6300E9BD3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DC0FE019178E6300E9BD3D /* MTControlWithCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6DC0FD819178E6300E9BD3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6DC0FB119178E6200E9BD3D /* MTControlWithCell */;
+			targetProxy = C6DC0FD719178E6300E9BD3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6DC0FBE19178E6200E9BD3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6DC0FBF19178E6200E9BD3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C6DC0FC419178E6300E9BD3D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6DC0FC519178E6300E9BD3D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C6DC0FCA19178E6300E9BD3D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6DC0FCB19178E6300E9BD3D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C6DC0FDC19178E6300E9BD3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6DC0FDD19178E6300E9BD3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6DC0FE119178E6300E9BD3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C6DC0FE219178E6300E9BD3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C6DC0FE419178E6300E9BD3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTControlWithCell/MTControlWithCell-Prefix.pch";
+				INFOPLIST_FILE = "MTControlWithCell/MTControlWithCell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C6DC0FE519178E6300E9BD3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTControlWithCell/MTControlWithCell-Prefix.pch";
+				INFOPLIST_FILE = "MTControlWithCell/MTControlWithCell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C6DC0FE719178E6300E9BD3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTControlWithCell.app/Contents/MacOS/MTControlWithCell";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTControlWithCell/MTControlWithCell-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MTControlWithCellTests/MTControlWithCellTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C6DC0FE819178E6300E9BD3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTControlWithCell.app/Contents/MacOS/MTControlWithCell";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTControlWithCell/MTControlWithCell-Prefix.pch";
+				INFOPLIST_FILE = "MTControlWithCellTests/MTControlWithCellTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6DC0FAD19178E6200E9BD3D /* Build configuration list for PBXProject "MTControlWithCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6DC0FE119178E6300E9BD3D /* Debug */,
+				C6DC0FE219178E6300E9BD3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6DC0FE319178E6300E9BD3D /* Build configuration list for PBXNativeTarget "MTControlWithCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6DC0FE419178E6300E9BD3D /* Debug */,
+				C6DC0FE519178E6300E9BD3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6DC0FE619178E6300E9BD3D /* Build configuration list for PBXNativeTarget "MTControlWithCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6DC0FE719178E6300E9BD3D /* Debug */,
+				C6DC0FE819178E6300E9BD3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6DC0FAA19178E6200E9BD3D /* Project object */;
+}
